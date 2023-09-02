@@ -10,3 +10,31 @@ comms_cask:
   - discord
   - slack
   - telegram-desktop
+  - zoom
+
+dev:
+  - asdf
+  - colima
+  - docker
+  - docker-compose
+  - iterm2
+  - neovim
+  - pnpm
+
+dev_cask:
+  - dbeaver-community
+  - insomnia
+  - http-toolkit
+  - visual-studio-code
+
+misc:
+
+misc_cask:
+  - raycast
+  - google-chrome
+  - obsidian
+  - spotify
+  - rectangle
+
+security-cask:
+  - bitwarden
