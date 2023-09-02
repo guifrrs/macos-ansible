@@ -5,6 +5,6 @@
     - { role: comms, tags: [comms] }
     - { role: dev, tags: [dev] }
     - { role: misc, tags: [misc] }
-    - { role: sec, tags: [sec] }
+    - { role: security, tags: [sec] }
 
     
