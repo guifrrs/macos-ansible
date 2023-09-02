@@ -1,5 +1,13 @@
 # Create dev folder
-# Clone dotfiles
+
+- name: Clone dotfiles
+  ansible.builtin.git:
+    repo: https://github.com/guifrrs/dotfiles
+    dest: ~/Development/Personal/dotfiles
+    update: true
+  tags:
+    - base
+
 - name: Install base packages
   community.general.homebrew:
     name: "{{ base }}"
