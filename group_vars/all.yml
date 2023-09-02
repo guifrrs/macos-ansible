@@ -36,5 +36,7 @@ misc_cask:
   - spotify
   - rectangle
 
-security-cask:
+security:
+
+security_cask:
   - bitwarden
