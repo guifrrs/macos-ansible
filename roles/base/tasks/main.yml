@@ -1,0 +1,5 @@
+- name: Install base packages
+  community.general.homebrew:
+    name: "{{ base }}"
+  tags:
+    - base
