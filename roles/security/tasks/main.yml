@@ -1,0 +1,11 @@
+- name: Install security packages
+  community.general.homebrew:
+    name: "{{ security }}"
+  tags:
+    - sec
+
+- name: Install security casks packages
+  community.general.homebrew_cask:
+    name: "{{ security_cask }}"
+  tags:
+    - sec

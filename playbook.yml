@@ -3,5 +3,8 @@
   roles:
     - { role: base, tags: [base] }
     - { role: comms, tags: [comms] }
+    - { role: dev, tags: [dev] }
+    - { role: misc, tags: [misc] }
+    - { role: sec, tags: [sec] }
 
     
