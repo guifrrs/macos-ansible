@@ -1,3 +1,9 @@
+# Create dev folder
+
+# Clone dotfiles
+
+# Config zsh
+
 - name: Install base packages
   community.general.homebrew:
     name: "{{ base }}"

@@ -1,0 +1,11 @@
+- name: Install dev packages
+  community.general.homebrew:
+    name: "{{ dev }}"
+  tags:
+    - dev
+
+- name: Install dev casks packages
+  community.general.homebrew_cask:
+    name: "{{ dev_cask }}"
+  tags:
+    - dev

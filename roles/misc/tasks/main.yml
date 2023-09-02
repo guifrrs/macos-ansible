@@ -1,0 +1,11 @@
+- name: Install misc packages
+  community.general.homebrew:
+    name: "{{ misc }}"
+  tags:
+    - misc
+
+- name: Install misc casks packages
+  community.general.homebrew_cask:
+    name: "{{ misc_cask }}"
+  tags:
+    - misc

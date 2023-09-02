@@ -4,7 +4,7 @@
   tags:
     - comms
 
-- name: Install comms caks packages
+- name: Install comms casks packages
   community.general.homebrew_cask:
     name: "{{ comms_cask }}"
   tags:
