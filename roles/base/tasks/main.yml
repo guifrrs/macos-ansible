@@ -1,11 +1,11 @@
 # Create dev folder
-
 # Clone dotfiles
-
-# Config zsh
-
 - name: Install base packages
   community.general.homebrew:
     name: "{{ base }}"
   tags:
     - base
+
+- name: Include zsh task
+  ansible.builtin.include_tasks:
+    file: zsh.yml
