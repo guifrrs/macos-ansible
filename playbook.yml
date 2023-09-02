@@ -1,4 +1,7 @@
-- name: Setup and configure a fresh install
+- name: Setup and configure a fresh MacOS install
   hosts: all
   roles:
     - { role: base, tags: [base] }
+    - { role: comms, tags: [comms] }
+
+    

@@ -1,0 +1,11 @@
+- name: Install comms packages
+  community.general.homebrew:
+    name: "{{ comms }}"
+  tags:
+    - comms
+
+- name: Install comms caks packages
+  community.general.homebrew_cask:
+    name: "{{ comms_cask }}"
+  tags:
+    - comms

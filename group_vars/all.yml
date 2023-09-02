@@ -1,2 +1,12 @@
 base:
+  - curl
   - git
+  - htop
+  - tree
+
+comms:
+
+comms_cask:
+  - discord
+  - slack
+  - telegram-desktop
