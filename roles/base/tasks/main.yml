@@ -1,4 +1,16 @@
-# Create dev folder
+- name: Create Development folder
+  ansible.builtin.file:
+    path: ~/Development
+    state: directory
+  tags:
+    - base
+
+- name: Create Personal folder
+  ansible.builtin.file:
+    path: ~/Development/Personal
+    state: directory
+  tags:
+    - base
 
 - name: Clone dotfiles
   ansible.builtin.git:
@@ -17,3 +29,9 @@
 - name: Include zsh task
   ansible.builtin.include_tasks:
     file: zsh.yml
+
+- name: Install JetBrains Mono font
+  ansible.builtin.homebrew_cask:
+    name: jetbrains-mono
+  tags:
+    - base

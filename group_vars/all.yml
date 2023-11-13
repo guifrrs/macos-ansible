@@ -20,12 +20,17 @@ dev:
   - iterm2
   - neovim
   - pnpm
+  - kubernetes-cli
+  - gpg
+  - gawk
+  - nss
 
 dev_cask:
   - dbeaver-community
   - insomnia
   - http-toolkit
   - visual-studio-code
+  - google-cloud-sdk
 
 misc:
 
